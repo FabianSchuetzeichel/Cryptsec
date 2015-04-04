@@ -1,5 +1,11 @@
 {
     "name": "fabianschuetzeichel/cryptsec",
+    "authors": [
+      {
+        "name":"Fabian Schützeichel",
+        "email":"fabian.schuetzeichel@gmail.com"
+      }
+    ],
     "description": "Cryptsec plugin for CakePHP",
     "type": "cakephp-plugin",
     "require": {
