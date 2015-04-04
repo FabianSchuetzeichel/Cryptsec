@@ -1,0 +1,23 @@
+{
+    "name": "fabianschuetzeichel/cryptsec",
+    "description": "Cryptsec plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.4",
+        "cakephp/cakephp": "3.0.x"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cryptsec\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cryptsec\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
